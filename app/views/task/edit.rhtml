@@ -1,0 +1,14 @@
+<div id="login-form">
+<% form_for  :task, @task ,:url => {:controller => :task, :action =>:update, :id=>@task.id}do |t| %>
+<p>
+<label for='task_name'>Task:</label>
+<%= t.text_field 'name' %>
+</p>
+<p>
+<label for='task_due_date'>Due Date:</label>
+<%= t.text_field 'due_date' %></p>
+<p>
+<%= submit_tag "Update"%>
+</p>
+<% end %>
+</div>

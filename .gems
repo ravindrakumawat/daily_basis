@@ -1,0 +1,5 @@
+rails --version="2.3.5"
+chronic --version = "0.2.3"
+action_mailer_tls --source gems.github.com
+
+acts_as_list --source gems.github.com
